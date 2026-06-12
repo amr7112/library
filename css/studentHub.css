@@ -1,0 +1,154 @@
+/* start global rulls  */
+
+.root {
+    --main-color: #8fc73e;
+    --alt-main-color: #ccdc45;
+    --dark-main-color: #0c6b43;
+    --text-color: #888;
+    --text-light-color: #777;
+    --nav-hight: 75px;
+    --white: #fff;
+    --black: #000;
+    --color-222: #000;
+    --section-padding: 80px;
+    --red: #e74c3c;
+    --border: 2px solid var(--main-color);
+    --blue-color: #006880;
+    --alt-main-color: #ff928f;
+    --special-color: #efefef;
+    --ddd-color: #ddd;
+    --transition-time: .3s;
+    --long-transition-time: .5s;
+    --longer-transition-time: 1s;
+    --special-shadow: 0 0 5px var(--dark-main-color),
+        0 0 20px var(--dark-main-color),
+        0 0 25px var(--dark-main-color),
+        0 0 30px var(--dark-main-color);
+    --smooth-shadow: 0px 0px 12px var(--ddd-color);
+    --extra-smooth-shadow: 0 4px 6px rgba(0, 0, 0, 0.18);
+    --border-radius-6: 6px;
+}
+
+.student .container {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.student .container p {
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+
+form {
+    padding-top: 10px;
+    margin-top: 50px;
+    background-color: #8fc73e;
+    display: block;
+
+}
+
+@media(max-width:768px) {
+    .container {
+        width: 768px;
+    }
+
+
+}
+
+@media(min-width:768px) {
+    .container {
+        width: 768px;
+    }
+
+    form {
+        width: 500px;
+    }
+
+    .input input {
+        width: 350px;
+        height: 35px;
+    }
+}
+
+@media (min-width:912px) {
+    .container {
+        width: 970px;
+
+    }
+
+    form {
+        width: 48%;
+    }
+
+    .input input {
+        width: 400px;
+        height: 40px;
+    }
+
+
+}
+
+@media (min-width:572px) {
+    .container {
+        width: 572px;
+
+    }
+
+    .input input {
+        width: 350;
+        height: 35px;
+    }
+
+    form {
+        width: 450px;
+    }
+
+}
+
+@media (min-width:450px) {
+    .container {
+        width: 450px;
+
+    }
+
+    .input input {
+        width: 250px;
+        height: 25pxpx;
+    }
+
+    form {
+        width: 400px;
+    }
+
+}
+
+
+@media (min-width:1200px) {
+    .container {
+        width: 1170px;
+    }
+
+    .input input {
+        width: 400px;
+    }
+
+    form {
+        width: 500px;
+    }
+}
+
+
+.btn {
+    padding: 10px 30px;
+    cursor: pointer;
+    font-size: 15px;
+    color: #777;
+    border-radius: 5px;
+    border: var(--border);
+    border-color: var(--main-color);
+    background-color: var(--main-color);
+    margin-top: 10px;
+    text-transform: capitalize;
+}
